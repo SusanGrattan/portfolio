@@ -6,11 +6,35 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foundation for Sites</title>
+    <title>Susan Grattan</title>
     <link rel="stylesheet" href="{{root}}assets/css/app.css">
   </head>
   <body>
+    <!-- Nav bar -->
 
+    <div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
+      <button class="menu-icon" type="button" data-toggle></button>
+
+
+    </div>
+    <div class="top-bar" id="example-menu">
+    <div class="top-bar-left">
+      <ul class="dropdown menu" data-dropdown-menu>
+        <li class="menu-text brand-name">Susan Grattan</li>
+        </ul>
+    </div>
+
+      <div class="top-bar-right">
+        <ul class="dropdown menu" data-dropdown-menu>
+          <li><a href="">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Work</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="" class="contact-link">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- end nav -->
     {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
     {{> body}}
 
