@@ -53,6 +53,7 @@
 @import url(http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
 
 // Main style
+
 .hero {
   background: url('../img/IHTF.jpg') no-repeat center center;
 	background-size: cover;
@@ -71,21 +72,20 @@
   padding: 1rem;
 
   .social a {
-    display: inline-block;
-    width: 2rem;
-    height: 2rem;
-    background-color: #33383b;
-    border-radius: 2px;
-    font-size: 1.5rem;
-    color: #fff;
+
+    font-size: 1rem;
     text-align: center;
-    line-height: 2rem;
-    margin: 0 3px 0 0;
+    color: black;
+
+    i {
+      font-size: 1.5rem;
+      margin-right: 5px;
+    }
   }
 
   .copywrite {
 
-    font-size: 0.875rem;
+    font-size: 0.8rem;
     margin: 1rem 0 1rem 0;
   }
 
