@@ -49,6 +49,9 @@
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
+// ionicons
+@import url(http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+
 // Main style
 .hero {
   background: url('../img/IHTF.jpg') no-repeat center center;
