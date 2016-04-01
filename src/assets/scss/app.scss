@@ -72,9 +72,7 @@
 }
 
 .footer {
-  button {
-    margin-bottom: 20px;
-  }
+
   .social a {
 
     font-size: 1rem;
@@ -111,7 +109,12 @@
 
   @media only screen and (min-width: 40.063em) {
   padding: 4rem;
-
+  .row-1 {
+    margin-bottom: 30px;
+  }
+  .row-3 {
+    margin-top: 35px;
+  }
 
 
   }
