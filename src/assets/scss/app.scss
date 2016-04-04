@@ -52,16 +52,30 @@
 // ionicons
 @import url(http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
 
+// google font
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
 // Main style
+.skill {
+  padding: 5px;
+}
 .top-bar-right a{
   color: white;
 }
-.skills {
-  margin-bottom: 25px;
+
+img.desaturate {
+-webkit-filter: grayscale(100%);
+filter: grayscale(100%);
 }
 
+.row-1 {
+  i {
+  font-size: 1.5em;
+  margin-right: 10px;
+  }
+}
 .hero {
-  background: url('../img/IHTF.jpg') no-repeat center center;
+  background: url('http://orig13.deviantart.net/e59c/f/2013/131/f/b/this_is_a_yellow_phone_booth_by_danielboesen-d64w9ee.jpg') no-repeat center center;
 	background-size: cover;
   height: 50vh;
   overflow: hidden;
@@ -70,7 +84,10 @@
 .row {
   max-width: 1200px;
 }
-
+.credit a {
+  color: gray !important;
+  margin-left: 5px;
+}
 .footer {
 
   .social a {
@@ -117,5 +134,12 @@
   }
 
 
+  }
+}
+
+@media only screen and (min-width: 40.063em) {
+
+  .skill {
+    padding: 10px;
   }
 }
